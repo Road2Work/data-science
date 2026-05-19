@@ -1,0 +1,738 @@
+{
+  "Data Analyst": {
+    "domain": "Information & Technology",
+    "role_family": "Data & AI",
+    "competencies": [
+      {
+        "competency_id": "data_analyst_1",
+        "competency": "Data Cleaning & Structural Preparation",
+        "description": "Kemampuan melakukan deteksi anomali secara masif, manajemen missing values, standardisasi format tipe data, dan merancang data wrangling pipeline terstruktur.",
+        "weight": 0.25,
+        "related_skills": ["sql", "excel", "data cleaning", "pandas", "data wrangling", "numpy"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_analyst_2",
+        "competency": "Interactive Dashboard Optimization & Warehousing",
+        "description": "Kemampuan membangun arsitektur visualisasi dashboard interaktif berskala enterprise dan melakukan optimasi pemrosesan query pergudangan data.",
+        "weight": 0.25,
+        "related_skills": ["data visualization", "tableau", "power bi", "google looker studio", "bigquery"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_analyst_3",
+        "competency": "Statistical Inference & Exploratory Analytics",
+        "description": "Kemampuan menerapkan metode statistik deskriptif dan inferensial untuk memvalidasi signifikansi tren data populasi bisnis.",
+        "weight": 0.20,
+        "related_skills": ["statistical analysis", "data analytics", "excel", "data exploration", "scikit-learn"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_analyst_4",
+        "competency": "Business Intelligence & Strategic Communication",
+        "description": "Kemampuan mengekstrak metrik kinerja utama (KPI) bisnis dan menerjemahkannya menjadi narasi teknis berupa executive report bagi jajaran direksi.",
+        "weight": 0.15,
+        "related_skills": ["business intelligence", "data analytics", "tableau", "communication"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_analyst_5",
+        "competency": "Automated ETL Pipeline Scripting",
+        "description": "Kemampuan mengotomatiskan penarikan data berkala menggunakan skrip modular bahasa pemrograman tingkat tinggi tanpa intervensi manual.",
+        "weight": 0.15,
+        "related_skills": ["python", "sql", "data analytics", "data cleaning"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Data Scientist": {
+    "domain": "Information & Technology",
+    "role_family": "Data & AI",
+    "competencies": [
+      {
+        "competency_id": "data_scientist_1",
+        "competency": "Advanced Multivariate Exploratory Data Analysis",
+        "description": "Kemampuan mendeteksi multikolinieritas, menguji hipotesis statistik secara ketat, serta melakukan reduksi dimensi pada dataset fitur berskala besar.",
+        "weight": 0.25,
+        "related_skills": ["python", "pandas", "data exploration", "statistical data analysis", "numpy"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_scientist_2",
+        "competency": "Supervised & Unsupervised Modeling Experiments",
+        "description": "Kemampuan merancang arsitektur model klasifikasi, regresi, clustering, serta menerapkan cross-validation terstruktur untuk mencegah overfitting.",
+        "weight": 0.25,
+        "related_skills": ["machine learning", "scikit-learn", "predictive modelling", "data mining", "r tool"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_scientist_3",
+        "competency": "Robust Model Evaluation & Optimization Metrics",
+        "description": "Kemampuan menganalisis performa model menggunakan matriks evaluasi ketat pada kondisi extreme imbalanced class target.",
+        "weight": 0.20,
+        "related_skills": ["statistical data analysis", "predictive modelling", "machine learning", "scikit-learn"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_scientist_4",
+        "competency": "Big Data Engineering & Distributed Computing",
+        "description": "Kemampuan mengolah dan mengekstrak data dari lingkungan kluster terdistribusi masif menggunakan ekosistem big data.",
+        "weight": 0.15,
+        "related_skills": ["big data technologies", "data mining", "sql", "python"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "data_scientist_5",
+        "competency": "Explainable AI (XAI) & Business Insights",
+        "description": "Kemampuan menginterpretasikan keputusan internal black-box model menggunakan SHAP/LIME agar transparan bagi kepentingan strategi bisnis.",
+        "weight": 0.15,
+        "related_skills": ["predictive modelling", "statistical data analysis", "python", "communication"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "AI Engineer": {
+    "domain": "Information & Technology",
+    "role_family": "Data & AI",
+    "competencies": [
+      {
+        "competency_id": "ai_engineer_1",
+        "competency": "Deep Neural Network Architecture Design",
+        "description": "Kemampuan merancang, mengonfigurasi lapisan kustom, dan melatih model deep learning berskala besar menggunakan framework mutakhir.",
+        "weight": 0.25,
+        "related_skills": ["artificial intelligence", "deep learning", "tensorflow", "pytorch", "python"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ai_engineer_2",
+        "competency": "Natural Language Processing & LLM Integration",
+        "description": "Kemampuan melakukan fine-tuning arsitektur transformers, mengelola tokenisasi teks, serta mengintegrasikan LLM menggunakan prompt engineering.",
+        "weight": 0.25,
+        "related_skills": ["natural language processing", "prompt engineering", "generative ai", "artificial intelligence"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ai_engineer_3",
+        "competency": "Computer Vision Application Systems",
+        "description": "Kemampuan melatih model segmentasi objek, deteksi gambar waktu-nyata, dan melakukan augmentasi data visual secara otomatis.",
+        "weight": 0.20,
+        "related_skills": ["computer vision", "deep learning", "tensorflow", "pytorch"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ai_engineer_4",
+        "competency": "High Performance Inference Deployment",
+        "description": "Kemampuan melakukan kuantisasi model kecerdasan buatan untuk mengoptimalkan response time inferensi di lingkungan production.",
+        "weight": 0.15,
+        "related_skills": ["api integration", "tensorflow", "pytorch", "python"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ai_engineer_5",
+        "competency": "Multi Agent Integration Frameworks",
+        "description": "Kemampuan mengintegrasikan sistem penalaran (reasoning) AI multi-agent dengan API backend guna meminimalkan halusinasi informasi data.",
+        "weight": 0.15,
+        "related_skills": ["api integration", "artificial intelligence", "generative ai", "python"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "ML Engineer": {
+    "domain": "Information & Technology",
+    "role_family": "Data & AI",
+    "competencies": [
+      {
+        "competency_id": "ml_engineer_1",
+        "competency": "Scalable Model Deployment & Orchestration",
+        "description": "Kemampuan membungkus sistem backend inferensi model ke container produksi serta mengatur skalabilitas auto-scaling kluster web.",
+        "weight": 0.25,
+        "related_skills": ["model deployment", "python", "mlops", "scikit-learn"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ml_engineer_2",
+        "competency": "Automated MLOps Training Pipelines",
+        "description": "Kemampuan merancang pipeline otomatisasi retraining model end-to-end tanpa gangguan latency sistem saat rilis kode produksi.",
+        "weight": 0.25,
+        "related_skills": ["mlops", "machine learning algorithms", "data preprocessing", "feature engineering"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ml_engineer_3",
+        "competency": "Automated Feature Engineering Systems",
+        "description": "Kemampuan membangun pipeline pemrosesan fitur otomatis berskala besar guna menghindari masalah kebocoran data (data leakage).",
+        "weight": 0.20,
+        "related_skills": ["feature engineering", "data preprocessing", "python", "scikit-learn"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ml_engineer_4",
+        "competency": "Data Drift & Accuracy Validation Monitoring",
+        "description": "Kemampuan mendeteksi degradasi performa model akurasi pasca deployment secara real-time menggunakan metrik validasi statistik.",
+        "weight": 0.15,
+        "related_skills": ["mlops", "hyperparameter tuning", "tensorflow", "pytorch"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ml_engineer_5",
+        "competency": "Hyperparameter Tuning At Scale",
+        "description": "Kemampuan mengotomatiskan pencarian ruang parameter optimal pada kluster server komputasi terdistribusi performa tinggi.",
+        "weight": 0.15,
+        "related_skills": ["hyperparameter tuning", "machine learning algorithms", "tensorflow", "scikit-learn"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Cloud Engineer": {
+    "domain": "Information & Technology",
+    "role_family": "Infrastructure, Cloud & Security",
+    "competencies": [
+      {
+        "competency_id": "cloud_engineer_1",
+        "competency": "Multi Region Cloud Architecture Setup",
+        "description": "Kemampuan merancang cetak biru infrastruktur komputasi multi-region yang menjamin ketersediaan tinggi dan toleransi kesalahan (fault-tolerance).",
+        "weight": 0.25,
+        "related_skills": ["cloud computing", "cloud architecture", "aws", "gcp"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cloud_engineer_2",
+        "competency": "Enterprise Container & Virtualization Control",
+        "description": "Kemampuan mengonfigurasi isolasi resource virtualisasi tingkat lanjut serta melakukan manajemen kluster komputasi multi-tenancy.",
+        "weight": 0.25,
+        "related_skills": ["virtualisation", "azure", "linux", "cloud computing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cloud_engineer_3",
+        "competency": "Cloud Network Security Configuration",
+        "description": "Kemampuan mengonfigurasi gerbang akses jaringan virtual (VPC, Subnet, Routing) menggunakan kontrol enkripsi data internal ketat.",
+        "weight": 0.20,
+        "related_skills": ["cloud security", "networking fundamentals", "linux", "azure"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cloud_engineer_4",
+        "competency": "Serverless Computing Integration",
+        "description": "Kemampuan mengintegrasikan arsitektur fungsi serverless computing untuk meminimalkan kendala cold start sistem aplikasi.",
+        "weight": 0.15,
+        "related_skills": ["serverless computing", "cloud architecture", "aws", "gcp"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cloud_engineer_5",
+        "competency": "Financial Cloud Budget Auditing",
+        "description": "Kemampuan merancang mekanisme audit biaya berkala guna memangkas pemborosan pengeluaran resource cloud computing komersial.",
+        "weight": 0.15,
+        "related_skills": ["cloud computing", "cloud architecture", "aws", "azure"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "DevOps Engineer": {
+    "domain": "Information & Technology",
+    "role_family": "Infrastructure, Cloud & Security",
+    "competencies": [
+      {
+        "competency_id": "devops_engineer_1",
+        "competency": "Automated Security Integrated CI/CD Pipelines",
+        "description": "Kemampuan merancang arsitektur pipeline rilis kode otomatis terintegrasi dengan automated vulnerability scanning dan unit testing.",
+        "weight": 0.25,
+        "related_skills": ["continuous integration", "jenkins", "git vcs", "docker"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "devops_engineer_2",
+        "competency": "Infrastructure as Code & Orchestration",
+        "description": "Kemampuan mengotomatiskan siklus lingkungan server berskala besar dengan Terraform tanpa konflik state serta manajemen kluster Kubernetes.",
+        "weight": 0.25,
+        "related_skills": ["kubernetes", "infrastructure as code", "docker", "devops philosophy"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "devops_engineer_3",
+        "competency": "Real-time Telemetry & Systems Logging",
+        "description": "Membangun sistem pemantauan terpusat untuk mendeteksi bottleneck performa aplikasi secara real-time pada *build automation* server.",
+        "weight": 0.20,
+        "related_skills": ["devops philosophy", "jenkins", "linux administration", "shell scripting"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "devops_engineer_4",
+        "competency": "Enterprise Linux Systems Administration",
+        "description": "Kemampuan mengonfigurasi hak akses repositori server, otomasi pemeliharaan, serta skrip otomasi shell terminal tingkat lanjut.",
+        "weight": 0.15,
+        "related_skills": ["linux administration", "shell scripting", "git vcs"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "devops_engineer_5",
+        "competency": "Automated System Rollback Strategies",
+        "description": "Kemampuan mengonfigurasi skema penanganan kegagalan rilis aplikasi production demi kelancaran stabilitas sistem (zero-downtime).",
+        "weight": 0.15,
+        "related_skills": ["devops philosophy", "kubernetes", "automation testing", "docker"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Cybersecurity Analyst": {
+    "domain": "Information & Technology",
+    "role_family": "Infrastructure, Cloud & Security",
+    "competencies": [
+      {
+        "competency_id": "cybersecurity_analyst_1",
+        "competency": "Enterprise SIEM Tuning & Alert Analysis",
+        "description": "Kemampuan mengonfigurasi aturan korelasi log ancaman siber real-time terpusat serta melakukan analisis forensik lalu lintas data.",
+        "weight": 0.25,
+        "related_skills": ["network security", "siem", "threat hunting", "linux security"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cybersecurity_analyst_2",
+        "competency": "Advanced Persistent Threat Hunting",
+        "description": "Kemampuan mendeteksi celah intrusi terselubung memanfaatkan taksonomi taktik serangan siber dari pihak luar.",
+        "weight": 0.25,
+        "related_skills": ["threat hunting", "network security", "firewall management", "siem"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cybersecurity_analyst_3",
+        "competency": "Incident Handling & Malware Isolation",
+        "description": "Kemampuan menghentikan rantai penyebaran malware aktif serta mengonfigurasi algoritma kriptografi untuk jalur pertukaran data internal.",
+        "weight": 0.20,
+        "related_skills": ["incident response", "cryptography", "linux security"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cybersecurity_analyst_4",
+        "competency": "Infrastructure Vulnerability Assessment",
+        "description": "Kemampuan melakukan pengetesan keamanan (penetration testing) guna mengidentifikasi celah miskonfigurasi server korporat.",
+        "weight": 0.15,
+        "related_skills": ["vulnerability assessment", "penetration testing", "firewall management"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "cybersecurity_analyst_5",
+        "competency": "ICT Security Legislative Compliance",
+        "description": "Kemampuan menyelaraskan manajemen keamanan data enterprise berdasarkan regulasi hukum undang-undang perlindungan siber internasional.",
+        "weight": 0.15,
+        "related_skills": ["ict security legislation", "vulnerability assessment", "network security"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Frontend Developer": {
+    "domain": "Information & Technology",
+    "role_family": "Web Development",
+    "competencies": [
+      {
+        "competency_id": "frontend_developer_1",
+        "competency": "Accessible Responsive UI Engineering",
+        "description": "Kemampuan menerjemahkan draf web design menjadi susunan kode markup responsif ramah aksesibilitas lintas dimensi layar.",
+        "weight": 0.25,
+        "related_skills": ["html", "css", "web design", "bootstrap", "tailwind css"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "frontend_developer_2",
+        "competency": "Advanced React Component Lifecycles",
+        "description": "Kemampuan mengelola manajemen data internal state komponen aplikasi web berskala besar serta mencegah pemicu unnecessary re-rendering.",
+        "weight": 0.25,
+        "related_skills": ["react", "javascript", "dom manipulation", "tailwind css"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "frontend_developer_3",
+        "competency": "Strictly Typed Interface Engineering",
+        "description": "Kemampuan merancang modul frontend menggunakan tipe data ketat guna mendeteksi bug logika sintaksis sebelum fase kompilasi.",
+        "weight": 0.20,
+        "related_skills": ["typescript", "javascript", "react", "next.js"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "frontend_developer_4",
+        "competency": "Server-Side Rendering Web Application Optimization",
+        "description": "Kemampuan menerapkan arsitektur SSR (Server-Side Rendering) pada Next.js demi mendongkrak retensi memori load-time dan SEO.",
+        "weight": 0.15,
+        "related_skills": ["next.js", "typescript", "javascript"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "frontend_developer_5",
+        "competency": "Web Performance & Client-Side Caching",
+        "description": "Kemampuan mengelola optimalisasi bundle size ekosistem Javascript dasar guna memangkas load-time pemrosesan halaman.",
+        "weight": 0.15,
+        "related_skills": ["javascript", "dom manipulation", "html", "css"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Backend Developer": {
+    "domain": "Information & Technology",
+    "role_family": "Web Development",
+    "competencies": [
+      {
+        "competency_id": "backend_developer_1",
+        "competency": "High Performance Microservices Architecture",
+        "description": "Kemampuan membangun pola komunikasi antar layanan backend terdistribusi berkecepatan tinggi berbasis REST API atau gRPC.",
+        "weight": 0.25,
+        "related_skills": ["back-end development", "rest api", "system design", "microservices architecture"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "backend_developer_2",
+        "competency": "Advanced Database Tuning & Query Indexing",
+        "description": "Kemampuan mengonfigurasi skema database relasional kompleks serta sistem penanganan query balapan (race condition).",
+        "weight": 0.25,
+        "related_skills": ["sql", "postgresql", "mongodb", "back-end development"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "backend_developer_3",
+        "competency": "Asynchronous Backend Processing Server",
+        "description": "Kemampuan merancang arsitektur penanganan error terstruktur di Node.js agar server backend tangguh dan tidak rentan crash.",
+        "weight": 0.20,
+        "related_skills": ["node.js", "express.js", "back-end development"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "backend_developer_4",
+        "competency": "Distributed Caching & Session Management",
+        "description": "Kemampuan mengonfigurasi sistem caching memori berlapis untuk mereduksi hit langsung yang membebani database utama server.",
+        "weight": 0.15,
+        "related_skills": ["system design", "microservices architecture", "postgresql", "mongodb"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "backend_developer_5",
+        "competency": "Statically Typed Server Logic",
+        "description": "Kemampuan menulis sistem server logika berkecepatan kompilasi tinggi menggunakan bahasa pemrograman backend modern.",
+        "weight": 0.15,
+        "related_skills": ["golang", "system design", "rest api", "microservices architecture"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Full Stack Developer": {
+    "domain": "Information & Technology",
+    "role_family": "Web Development",
+    "competencies": [
+      {
+        "competency_id": "full_stack_developer_1",
+        "competency": "End-to-End System Blueprint Architecture",
+        "description": "Kemampuan membagi porsi beban komputasi antara client-side script dan server-side architecture pada sistem skala besar.",
+        "weight": 0.25,
+        "related_skills": ["web development", "system architecture", "react", "node.js"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "full_stack_developer_2",
+        "competency": "Secure Authentication & Data Coordination",
+        "description": "Kemampuan mengamankan pertukaran data pengguna end-to-end dari token enkripsi client hingga penyimpanan database SQL.",
+        "weight": 0.25,
+        "related_skills": ["sql", "rest api", "javascript", "node.js"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "full_stack_developer_3",
+        "competency": "Distributed State Synchronization Engineering",
+        "description": "Kemampuan mengelola arsitektur sinkronisasi data waktu-nyata agar terhindar dari kendala data mismatch antar halaman.",
+        "weight": 0.20,
+        "related_skills": ["web development", "javascript", "react", "sql"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "full_stack_developer_4",
+        "competency": "Collaborative Version Control Workflows",
+        "description": "Kemampuan mengelola manajemen percabangan kode terpusat (Git VCS) saat berkolaborasi aktif dengan belasan engineer lintas divisi.",
+        "weight": 0.15,
+        "related_skills": ["git", "web development", "system architecture"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "full_stack_developer_5",
+        "competency": "Comprehensive E2E Integration Testing",
+        "description": "Kemampuan merancang pengetesan integrasi menyeluruh guna memvalidasi fungsionalitas fitur aplikasi web sebelum fase deployment.",
+        "weight": 0.15,
+        "related_skills": ["web development", "react", "html", "css"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Android Developer": {
+    "domain": "Information & Technology",
+    "role_family": "Mobile Development",
+    "competencies": [
+      {
+        "competency_id": "android_developer_1",
+        "competency": "Native Android SDK Interface Engineering",
+        "description": "Kemampuan memproses background processing terstruktur bahasa Kotlin guna menghindari munculnya galat ANR pada device.",
+        "weight": 0.25,
+        "related_skills": ["kotlin", "android sdk", "android studio", "jetpack compose"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "android_developer_2",
+        "competency": "Declarative Mobile Component Architecture",
+        "description": "Kemampuan transisi penulisan arsitektur antarmuka modern dari basis XML layout tradisional menuju komponen deklaratif Jetpack Compose.",
+        "weight": 0.25,
+        "related_skills": ["jetpack compose", "xml layout", "android studio", "kotlin"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "android_developer_3",
+        "competency": "External REST API Endpoint Data Parsing",
+        "description": "Kemampuan integrasi api gateway eksternal secara aman serta penanganan error handling library warisan basis bahasa Java.",
+        "weight": 0.20,
+        "related_skills": ["api integration", "java", "android sdk"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "android_developer_4",
+        "competency": "Mobile Clean Architecture Patterns",
+        "description": "Kemampuan merancang pemisahan logika aplikasi mobile terstruktur berpatokan pada cetak biru MVVM architecture.",
+        "weight": 0.15,
+        "related_skills": ["mvvm architecture", "mobile application development", "kotlin"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "android_developer_5",
+        "competency": "Automated Build Configuration Scripting",
+        "description": "Kemampuan mengonfigurasi skrip otomatisasi build dependency manager untuk memisahkan varian lingkungan testing dan production.",
+        "weight": 0.15,
+        "related_skills": ["gradle", "android studio", "mobile application development"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "iOS Developer": {
+    "domain": "Information & Technology",
+    "role_family": "Mobile Development",
+    "competencies": [
+      {
+        "competency_id": "ios_developer_1",
+        "competency": "Native Apple Interface SwiftUI Optimization",
+        "description": "Kemampuan mengoptimalkan rendering view antarmuka deklaratif menggunakan profiling instrumen agar lancar di angka fps tinggi.",
+        "weight": 0.25,
+        "related_skills": ["swift", "xcode", "swiftui", "uikit"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ios_developer_2",
+        "competency": "Reactive Data Streams Programming",
+        "description": "Kemampuan mengelola aliran transaksi asynchronous platform memanfaatkan framework Combine modern bawaan sistem iOS.",
+        "weight": 0.25,
+        "related_skills": ["combine framework", "ios", "swift", "xcode"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ios_developer_3",
+        "competency": "Automatic Reference Counting Memory Management",
+        "description": "Kemampuan mengelola manajemen alokasi siklus hidup memori sistem Swift untuk mengantisipasi munculnya retain cycles.",
+        "weight": 0.20,
+        "related_skills": ["memory management", "swift", "xcode", "ios"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ios_developer_4",
+        "competency": "Responsive Layout Constraint Architecture",
+        "description": "Kemampuan menyusun aturan tata letak visual antarmuka dinamis memanfaatkan AutoLayout untuk berbagai variasi resolusi layar Apple.",
+        "weight": 0.15,
+        "related_skills": ["autolayout", "uikit", "xcode", "ios"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "ios_developer_5",
+        "competency": "Offline First Mobile Core Data Storage",
+        "description": "Kemampuan merancang skema penyimpanan data lokal terstruktur device guna mendukung fungsionalitas penjelajahan luring pengguna.",
+        "weight": 0.15,
+        "related_skills": ["ios", "cocoapods", "swift", "mobile application development"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Mobile Developer": {
+    "domain": "Information & Technology",
+    "role_family": "Mobile Development",
+    "competencies": [
+      {
+        "competency_id": "mobile_developer_1",
+        "competency": "Cross Platform Core Framework Deployment",
+        "description": "Kemampuan memilih dan mengonfigurasi fondasi arsitektur cross-platform utama pendukung efisiensi performa visual.",
+        "weight": 0.25,
+        "related_skills": ["flutter", "react native", "dart", "javascript"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "mobile_developer_2",
+        "competency": "Global Component Application State Management",
+        "description": "Kemampuan mengelola ekosistem pustaka state manager berskala besar yang aman dari isu kebocoran data lintas halaman.",
+        "weight": 0.25,
+        "related_skills": ["state management", "javascript", "dart", "flutter"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "mobile_developer_3",
+        "competency": "Native Bridge Driver Customization",
+        "description": "Kemampuan menulis struktur jembatan kode native bridges kustom ketika framework utama tidak mendukung fitur sensor perangkat lokal.",
+        "weight": 0.20,
+        "related_skills": ["native bridges", "mobile sdk", "flutter", "react native"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "mobile_developer_4",
+        "competency": "Cross Platform Mobile Memory Optimization",
+        "description": "Kemampuan memangkas ukuran final kompilasi aset biner aplikasi (APK/IPA) agar kompetitif di pasar unduhan digital.",
+        "weight": 0.15,
+        "related_skills": ["cross-platform optimization", "mobile UI concepts", "dart", "javascript"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "mobile_developer_5",
+        "competency": "Secure Local Cache Configuration",
+        "description": "Kemampuan mengonfigurasi penyimpanan terenkripsi pada local storage device untuk mengamankan kredensial token token sensitif.",
+        "weight": 0.15,
+        "related_skills": ["mobile application development", "mobile sdk", "state management"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Manual QA Tester": {
+    "domain": "Information & Technology",
+    "role_family": "Software Tester",
+    "competencies": [
+      {
+        "competency_id": "manual_qa_tester_1",
+        "competency": "Functional Edge Case Test Design",
+        "description": "Kemampuan merancang lembar spesifikasi skenario pengetesan logika bisnis rumit guna mendeteksi celah galat tersembunyi.",
+        "weight": 0.25,
+        "related_skills": ["test case design", "qa fundamentals", "black box testing", "software testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "manual_qa_tester_2",
+        "competency": "Defect Reporting Lifecycle Management",
+        "description": "Kemampuan merumuskan pelaporan kesalahan teknis terstruktur di platform kolaborasi enterprise agar mudah dipahami developer.",
+        "weight": 0.25,
+        "related_skills": ["bug tracking", "jira", "software testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "manual_qa_tester_3",
+        "competency": "Exploratory Verification Methodology",
+        "description": "Kemampuan menerapkan teknik pengetesan penjelajahan mandiri tanpa PRD baku untuk memvalidasi alur integrasi data sistem.",
+        "weight": 0.20,
+        "related_skills": ["black box testing", "qa fundamentals", "software testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "manual_qa_tester_4",
+        "competency": "Hotfix Regression Testing Verification",
+        "description": "Kemampuan merancang matriks pengetesan regresi kilat saat tim developer merilis pembaruan kode darurat mendadak.",
+        "weight": 0.15,
+        "related_skills": ["regression testing", "quality assurance procedures", "software testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "manual_qa_tester_5",
+        "competency": "Functional Interface API Validation",
+        "description": "Kemampuan memvalidasi keakuratan response payload data server melalui pengetesan manual API menggunakan utility client.",
+        "weight": 0.15,
+        "related_skills": ["api testing with postman", "quality assurance procedures", "bug tracking"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "QA Automation Engineer": {
+    "domain": "Information & Technology",
+    "role_family": "Software Tester",
+    "competencies": [
+      {
+        "competency_id": "qa_automation_engineer_1",
+        "competency": "Enterprise Automation Architecture Design",
+        "description": "Kemampuan merancang arsitektur framework testing berbasis Page Object Model (POM) agar skrip tidak rapuh dan mudah dirawat.",
+        "weight": 0.25,
+        "related_skills": ["selenium", "cypress", "framework design", "test automation"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "qa_automation_engineer_2",
+        "competency": "Flaky Script Mitigation Engineering",
+        "description": "Kemampuan mengoptimalkan kestabilan pengetesan otomatis dari gangguan penundaan asinkronus (latency) rendering browser.",
+        "weight": 0.25,
+        "related_skills": ["test scripts", "quality assurance procedures", "python", "javascript basics"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "qa_automation_engineer_3",
+        "competency": "Parallel Pipeline Execution Integration",
+        "description": "Kemampuan mengintegrasikan jalannya eksekusi pengujian otomatis secara paralel dalam kontainer CI/CD production.",
+        "weight": 0.20,
+        "related_skills": ["ci/cd integration for testing", "test automation", "selenium", "cypress"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "qa_automation_engineer_4",
+        "competency": "Programmatic Backend API Validation",
+        "description": "Kemampuan menyusun skrip pengetesan otomatis end-point server guna memvalidasi akurasi integritas relasi skema basis data.",
+        "weight": 0.15,
+        "related_skills": ["javascript basics", "python", "test scripts"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "qa_automation_engineer_5",
+        "competency": "Webhooks Automated Notification Routing",
+        "description": "Kemampuan menyambungkan keluaran log status testing otomatis ke ruang komunikasi tim secara instan via chat-bot server.",
+        "weight": 0.15,
+        "related_skills": ["test automation", "software testing", "framework design"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  },
+  "Software Tester": {
+    "domain": "Information & Technology",
+    "role_family": "Software Tester",
+    "competencies": [
+      {
+        "competency_id": "software_tester_1",
+        "competency": "Comprehensive Test Strategy Formulation",
+        "description": "Kemampuan memetakan pembagian porsi taktis antara pengetesan manual dan otomatisasi di bawah tekanan lini masa rilis yang sempit.",
+        "weight": 0.25,
+        "related_skills": ["software testing", "quality assurance procedures", "test case design", "manual testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "software_tester_2",
+        "competency": "Defect Credibility Technical Validation",
+        "description": "Kemampuan melacak akar permasalahan kode melalui pemeriksaan log server guna memvalidasi keabsahan laporan defect.",
+        "weight": 0.25,
+        "related_skills": ["defect reporting", "bug tracking", "manual testing", "api testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "software_tester_3",
+        "competency": "Non Functional Workload Modeling Simulation",
+        "description": "Kemampuan menyusun model beban trafik pengetesan non-fungsional aplikasi untuk mengukur ketahanan infrastruktur server.",
+        "weight": 0.20,
+        "related_skills": ["performance testing", "test automation", "selenium"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "software_tester_4",
+        "competency": "Internal Security Authentication Auditing",
+        "description": "Kemampuan menguji integritas lapisan otentikasi data serta melakukan validasi parameter gerbang token internal.",
+        "weight": 0.15,
+        "related_skills": ["api testing", "quality assurance procedures", "software testing"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      },
+      {
+        "competency_id": "software_tester_5",
+        "competency": "Regression Matrix Systematic Execution",
+        "description": "Kemampuan merancang cakupan pengujian regresi menyeluruh untuk memastikan fitur lama tidak rusak akibat rilisnya kode baru.",
+        "weight": 0.15,
+        "related_skills": ["software testing", "test automation", "quality assurance procedures"],
+        "expected_signals": ["menjelaskan konteks proyek", "menyebutkan kontribusi pribadi", "menyebutkan metode relevan", "menjelaskan metrik hasil"]
+      }
+    ]
+  }
+}
