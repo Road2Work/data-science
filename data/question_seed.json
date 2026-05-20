@@ -1,0 +1,706 @@
+{
+  "Data Analyst": [
+    {
+      "competency_id": "data_analyst_1",
+      "competency": "Data Analytics & Cleaning",
+      "questions": [
+        "Ceritakan pengalamanmu menangani dataset yang kotor atau memiliki banyak missing values. Langkah teknis apa yang kamu lakukan menggunakan library data wrangling?",
+        "Bagaimana pendekatanmu saat menyusun kueri agregasi untuk menemukan anomali atau outlier pada data operasional yang sedang kamu analisis?",
+        "Berdasarkan pengalamanmu, bagaimana cara memastikan bahwa pembersihan data yang kamu lakukan berdampak pada efisiensi waktu pemrosesan analitik?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengolahan, pembersihan, atau manipulasi dataset menggunakan pustaka data wrangling untuk kebutuhan analisis.",
+        "Menyebutkan tindakan teknis dalam menangani missing values, outliers, atau menyusun kueri agregasi data.",
+        "Menjelaskan dampak hasil berupa kebersihan data, keakuratan tren yang ditemukan, atau efisiensi waktu pemrosesan analitik."
+      ]
+    },
+    {
+      "competency_id": "data_analyst_2",
+      "competency": "Data Visualization & Dashboard Optimization",
+      "questions": [
+        "Ceritakan prosesmu saat merancang hirarki visual pada dasbor dari awal untuk menerjemahkan metrik bisnis yang rumit.",
+        "Jika grafik interaktif yang kamu buat memuat data terlalu lambat, langkah optimasi apa yang akan kamu lakukan pada kueri sumber datanya?",
+        "Bagaimana cara kamu memastikan hasil akhir visualisasi dasbor benar-benar membantu mempercepat pemangku kepentingan dalam mengambil keputusan?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan dasbor atau laporan visual untuk menerjemahkan metrik bisnis yang rumit.",
+        "Menyebutkan langkah teknis dalam menyusun hirarki visual, pembuatan grafik interaktif, atau optimasi kueri sumber data dasbor.",
+        "Menjelaskan dampak visualisasi terhadap kemudahan pengambilan keputusan, kejelasan informasi, atau kecepatan muat komponen visual."
+      ]
+    },
+    {
+      "competency_id": "data_analyst_3",
+      "competency": "Business Intelligence Reporting",
+      "questions": [
+        "Ceritakan pengalamanmu saat menelusuri metrik KPI operasional dan mengekstrak datanya untuk kebutuhan laporan rutin manajemen.",
+        "Saat menyusun executive report, bagaimana caramu menerjemahkan temuan teknis menjadi narasi dokumen yang mudah dipahami?",
+        "Pernahkah laporan presentasi intelijen bisnis yang kamu susun membawa dampak langsung terhadap efisiensi operasional atau rekomendasi taktis direksi? Ceritakan prosesnya."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penelusuran metrik performa bisnis (KPI) atau kebutuhan laporan rutin bagi manajemen.",
+        "Menyebutkan tindakan dalam mengekstrak data operasional, menyusun narasi dokumen pendukung, atau melakukan presentasi hasil temuan.",
+        "Menjelaskan hasil akhir berupa keabsahan rekomendasi taktis, efisiensi operasional, atau kepuasan jajaran direksi terhadap laporan."
+      ]
+    }
+  ],
+  "Data Scientist": [
+    {
+      "competency_id": "data_scientist_1",
+      "competency": "Data Science & Exploratory Modeling",
+      "questions": [
+        "Ceritakan langkah-langkahmu dalam melakukan eksplorasi fitur data dan pengujian hipotesis statistik sebelum menentukan masalah pemodelan prediktif.",
+        "Bagaimana caramu merancang eksperimen untuk membandingkan beberapa algoritma (misal klasifikasi vs regresi) pada sebuah dataset latih uji?",
+        "Bisa ceritakan pengalamanmu menemukan korelasi fitur yang valid dan bagaimana hal itu berdampak pada tingkat akurasi (atau reduksi error) model akhirmu?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks eksplorasi fitur data, pengujian hipotesis statistik, atau penentuan masalah pemodelan prediktif.",
+        "Menyebutkan tindakan eksperimen membandingkan beberapa algoritma klasifikasi/regresi atau pembagian dataset latih uji.",
+        "Menjelaskan dampak performa model seperti nilai akurasi, reduksi tingkat kesalahan prediksi, atau temuan korelasi fitur yang valid."
+      ]
+    },
+    {
+      "competency_id": "data_scientist_2",
+      "competency": "Machine Learning Evaluation & Tuning",
+      "questions": [
+        "Ceritakan pengalamanmu dalam mengkalkulasi kurva matriks evaluasi untuk mengatasi masalah data timpang (imbalanced class). Langkah mitigasi apa yang kamu ambil?",
+        "Bagaimana prosesmu saat menyusun cross-validation dan melakukan tuning hyperparameter otomatis pada internal model machine learning?",
+        "Langkah teknis apa yang paling efektif dalam pengalamanmu untuk mencegah model agar tidak overfitting sambil tetap menjaga kestabilan prediksi?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penanganan masalah data timpang (imbalanced class) atau optimasi parameter internal model machine learning.",
+        "Menyebutkan langkah penyusunan cross-validation, kalkulasi kurva matriks evaluasi, atau tuning parameter otomatis.",
+        "Menjelaskan hasil akhir berupa mitigasi model agar tidak overfitting, peningkatan kestabilan prediksi, atau efisiensi komputasi model."
+      ]
+    },
+    {
+      "competency_id": "data_scientist_3",
+      "competency": "Data Engineering Foundations",
+      "questions": [
+        "Ceritakan pengalamanmu saat harus menarik data bervolume besar dan mengintegrasikan beberapa tabel basis data untuk suplai pemodelan.",
+        "Bagaimana caramu mengotomatisasi penataan alur data (data pipeline) menggunakan script dan membersihkan skema kolomnya?",
+        "Pernahkah kamu melakukan optimalisasi kueri join? Jelaskan dampaknya terhadap kecepatan penarikan dan kelancaran pasokan data siap pakai."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penarikan data bervolume besar atau integrasi beberapa sumber tabel basis data.",
+        "Menyebutkan skrip otomasi penataan alur data, optimalisasi kueri join, atau pembersihan skema kolom data.",
+        "Menjelaskan dampak hasil seperti kelancaran pasokan data siap pakai, integritas relasi tabel data, atau kecepatan penarikan data."
+      ]
+    }
+  ],
+  "AI Engineer": [
+    {
+      "competency_id": "ai_engineer_1",
+      "competency": "Deep Learning Architecture Design",
+      "questions": [
+        "Ceritakan pengalamanmu merancang arsitektur jaringan saraf tiruan (neural network) untuk menangani pemrosesan data yang kompleks.",
+        "Bagaimana caramu menentukan arsitektur lapisan kustom, memilih loss function, dan mengatur optimizer saat proses pelatihan model?",
+        "Apa parameter yang kamu tinjau (seperti grafik loss atau akurasi objek) untuk menjamin bahwa model deep learning mencapai konvergensi yang stabil?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan arsitektur jaringan saraf tiruan (neural network) untuk pemrosesan data kompleks.",
+        "Menyebutkan tindakan menyusun arsitektur lapisan kustom, menentukan loss function, optimizer, atau proses pelatihan model.",
+        "Menjelaskan dampak performa berupa grafik penurunan nilai loss, peningkatan akurasi pengenalan objek, atau stabilitas konvergensi."
+      ]
+    },
+    {
+      "competency_id": "ai_engineer_2",
+      "competency": "Natural Language Processing & Generative AI",
+      "questions": [
+        "Ceritakan pengalamanmu dalam merekayasa prompt atau tokenisasi teks untuk mengintegrasikan model bahasa (LLM) pada aplikasi cerdas.",
+        "Bagaimana caramu mengondisikan agen pintar (AI agents) atau memanggil API generative AI untuk pemrosesan korpus teks alami?",
+        "Langkah teknis apa yang kamu terapkan untuk memastikan kecepatan inferensi teks optimal sekaligus secara drastis mengurangi risiko halusinasi informasi?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemanfaatan model bahasa (LLM) atau pemrosesan korpus teks alami untuk aplikasi cerdas.",
+        "Menyebutkan langkah rekayasa prompt, tokenisasi teks, pengkondisian agen pintar, atau pemanggilan API generative AI.",
+        "Menjelaskan hasil berupa reduksi halusinasi informasi data, ketepatan konteks respon AI, atau kecepatan inferensi teks."
+      ]
+    },
+    {
+      "competency_id": "ai_engineer_3",
+      "competency": "Computer Vision Application Systems",
+      "questions": [
+        "Ceritakan proyekmu yang paling berkesan saat mengimplementasikan sistem visi komputer untuk mendeteksi gambar atau pola visual.",
+        "Bagaimana proses kerjamu dalam melakukan augmentasi dataset gambar, pelabelan koordinat boks objek, dan eksekusi model?",
+        "Bagaimana caramu mengatasi masalah ketahanan variasi cahaya agar ketepatan deteksi objek (mAP) dan frame rate video tetap terjaga kelancarannya?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks implementasi sistem visi komputer untuk deteksi gambar, video, atau pengenalan pola visual.",
+        "Menyebutkan tindakan melakukan augmentasi dataset gambar, pelabelan koordinat boks objek, atau eksekusi model deteksi.",
+        "Menjelaskan dampak performa berupa ketepatan deteksi objek (mAP), kelancaran pemrosesan frame rate video, atau ketahanan variasi cahaya."
+      ]
+    }
+  ],
+  "ML Engineer": [
+    {
+      "competency_id": "ml_engineer_1",
+      "competency": "Model Deployment & Containerization",
+      "questions": [
+        "Ceritakan tantangan teknis saat kamu harus memindahkan model hasil pelatihan dari environment notebook lokal menuju server production siap pakai.",
+        "Bagaimana langkahmu membungkus model ke dalam container microservices dan membuat endpoint API backend inferensinya?",
+        "Dalam pengaturan alokasi RAM container, bagaimana caramu memastikan response time inferensi tetap lancar walau terjadi lonjakan traffic?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemindahan model hasil latihan dari notebook lokal menuju server production siap pakai.",
+        "Menyebutkan tindakan membungkus model ke dalam container microservices, pembuatan endpoint API, atau pengaturan alokasi ram.",
+        "Menjelaskan hasil berupa kelancaran response time inferensi, skalabilitas container saat trafik naik, atau kemudahan rilis versi model."
+      ]
+    },
+    {
+      "competency_id": "ml_engineer_2",
+      "competency": "Automated MLOps Pipelines",
+      "questions": [
+        "Ceritakan pengalamanmu merancang alur otomatisasi pembaruan model (retraining end-to-end) guna merespon pergeseran tren data.",
+        "Bagaimana caramu menyusun pipeline pemrosesan fitur secara otomatis sambil tetap mengunci pelacakan artefak model?",
+        "Apa strategi yang kamu gunakan agar proses pengujian performa transisi versi model baru berjalan mulus tanpa mengganggu latency sistem utama?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan alur otomatisasi pembaruan model (retraining) berkala akibat pergeseran tren data.",
+        "Menyebutkan langkah penyusunan pipeline pemrosesan fitur otomatis, pelacakan artefak model, atau pengujian performa otomatis.",
+        "Menjelaskan dampak berupa keandalan sistem tanpa intervensi manual, minimnya latency saat transisi versi model, atau validitas data latih."
+      ]
+    },
+    {
+      "competency_id": "ml_engineer_3",
+      "competency": "Model Monitoring & Drift Detection",
+      "questions": [
+        "Ceritakan pengalamanmu mengidentifikasi data drift (pergeseran metrik statistik) yang menyebabkan penurunan nilai akurasi model di production.",
+        "Bagaimana cara kerjamu saat mengonfigurasi alert dashboard dan mencatat log prediksi agar anomali terdeteksi real-time?",
+        "Saat peringatan sistem terpicu, seberapa cepat tindakan darurat (misal: tuning ulang hyperparameter) berhasil memulihkan kualitas prediksi bisnismu?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemantauan metrik statistik data masukan (data drift) atau penurunan nilai akurasi model di production.",
+        "Menyebutkan tindakan teknis mengonfigurasi alert dashboard, pencatatan log prediksi log, atau tuning ulang hyperparameter darurat.",
+        "Menjelaskan hasil berupa kecepatan deteksi anomali model, terjaganya kualitas prediksi bisnis, atau ketepatan waktu pengiriman sinyal peringatan."
+      ]
+    }
+  ],
+  "Cloud Engineer": [
+    {
+      "competency_id": "cloud_engineer_1",
+      "competency": "Cloud Infrastructure Setup",
+      "questions": [
+        "Ceritakan pertimbanganmu dalam memilih dan menyusun alur kerja saat men-deploy arsitektur dasar platform cloud (misal AWS/GCP/Azure) untuk sebuah aplikasi.",
+        "Langkah teknis apa yang kamu ikuti saat membangun infrastruktur dasar jaringan server dan memvalidasi ujicoba konfigurasinya?",
+        "Pernahkah arsitektur yang kamu bangun berhasil menurunkan tingkat downtime secara drastis? Jelaskan dampak nyatanya terhadap metrik performa."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemilihan, setup, atau konfigurasi platform cloud (seperti AWS atau cloud hosting) untuk kebutuhan deployment aplikasi.",
+        "Menyebutkan tindakan teknis dalam menyusun alur kerja, menguji konfigurasi, atau membangun infrastruktur dasar jaringan/server.",
+        "Menjelaskan dampak hasil akhir seperti stabilitas deployment, kelancaran presentasi/simulasi, atau metrik performa (misal: penurunan downtime)."
+      ]
+    },
+    {
+      "competency_id": "cloud_engineer_2",
+      "competency": "Container & Orchestration",
+      "questions": [
+        "Ceritakan pengalamanmu menerapkan arsitektur microservices menggunakan teknologi kontainerisasi (seperti Docker atau Kubernetes) untuk mengelola layanan.",
+        "Bagaimana caramu melakukan konfigurasi pengaturan environment untuk memastikan setiap kontainer terisolasi dengan aman?",
+        "Dalam hal pengelolaan resource, bagaimana orkestrasi kontainer yang kamu rancang berdampak pada efisiensi skala sistem saat beban aplikasi naik?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks implementasi kontainerisasi (seperti Docker atau Kubernetes) dalam mengisolasi atau mengelola layanan aplikasi.",
+        "Menyebutkan langkah konfigurasi, pengelolaan environment, atau penyusunan arsitektur microservices secara mandiri maupun tim.",
+        "Menjelaskan dampak penggunaan kontainer terhadap kemudahan rilis aplikasi, skalabilitas sistem, atau efisiensi manajemen resource."
+      ]
+    },
+    {
+      "competency_id": "cloud_engineer_3",
+      "competency": "Monitoring & Reliability",
+      "questions": [
+        "Bagaimana rutinitas metodologimu dalam memantau kesehatan server, log utilisasi resource, dan ketersediaan infrastruktur secara berkala?",
+        "Ceritakan momen genting ketika kamu menemukan anomali pada log error sistem. Bagaimana cara kerjamu saat melakukan perbaikan (troubleshooting)?",
+        "Menurutmu, indikator teknis apa saja yang membuktikan bahwa infrastruktur yang kamu kelola punya kecepatan respons penanganan crash tingkat tinggi?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan metode pemantauan (monitoring) kesehatan, utilisasi resource, atau log performa infrastruktur server secara berkala.",
+        "Menyebutkan tindakan perbaikan, troubleshooting, atau penanganan anomali berdasarkan feedback error yang terdeteksi pada sistem.",
+        "Menjelaskan hasil akhir berupa tingkat keandalan (reliability) sistem, seperti pencegahan server down atau kecepatan respons penanganan crash."
+      ]
+    }
+  ],
+  "DevOps Engineer": [
+    {
+      "competency_id": "devops_engineer_1",
+      "competency": "CI/CD Pipeline Design",
+      "questions": [
+        "Ceritakan metodemu merancang arsitektur jalur integrasi dari repositori lokal hingga kode berhasil dirilis otomatis ke server tujuan.",
+        "Bagaimana caramu mengonfigurasi workflow untuk menyisipkan tahapan pemindaian kerentanan otomatis dan unit test di dalam pipeline?",
+        "Pernahkah implementasi pipeline rancanganmu mencegah masuknya bug fatal ke level produksi? Jelaskan dampak pemangkasan durasinya."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan jalur integrasi dan otomatisasi rilis kode dari repositori lokal hingga server tujuan.",
+        "Menyebutkan langkah penyusunan berkas konfigurasi workflow, penyertaan tahapan unit test, atau pemindaian kerentanan otomatis.",
+        "Menjelaskan dampak berupa pemangkasan waktu rilis produk, deteksi dini bug fatal, atau standarisasi kualitas build aplikasi."
+      ]
+    },
+    {
+      "competency_id": "devops_engineer_2",
+      "competency": "Infrastructure as Code (IaC)",
+      "questions": [
+        "Ceritakan pengalamanmu mengelola cetak biru penyediaan lingkungan server berskala besar dengan pendekatan berbasis kode deklaratif.",
+        "Bagaimana caramu secara teknis mengelola manajemen berkas state (state file) dan menyingkronkan kluster kontainer infra agar stabil?",
+        "Bagaimana pembuktianmu bahwa pendekatan IaC ini sukses menekan angka human error dan memberikan antirasio konfigurasi server yang konsisten?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengelolaan cetak biru infrastruktur server berskala besar menggunakan pendekatan berbasis kode.",
+        "Menyebutkan tindakan menulis skrip deklaratif infra, manajemen berkas state server, atau sinkronisasi kluster kontainer.",
+        "Menjelaskan hasil berupa konsistensi lingkungan server (antirasio konfigurasi), kecepatan pembuatan replika server, atau minimnya human error."
+      ]
+    },
+    {
+      "competency_id": "devops_engineer_3",
+      "competency": "Systems Administration & Telemetry",
+      "questions": [
+        "Ceritakan skenario saat kamu ditugaskan memelihara hak akses repositori server korporat sekaligus membuat dasbor pantau terpusat.",
+        "Bagaimana teknismu dalam menyusun skrip otomasi Bash kompleks dan memadukannya dengan agregasi log error dinding api internal?",
+        "Jelaskan pengalaman tersuksesmu mengeksekusi insiden bottleneck trafik dengan kecepatan tinggi demi mempertahankan zero-downtime server."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemeliharaan hak akses repositori server, otomasi berkala, atau pembuatan dasbor pantau terpusat.",
+        "Menyebutkan tindakan menulis skrip otomasi bash kompleks, pengaturan dinding api internal, atau agregasi log error.",
+        "Menjelaskan dampak berupa zero-downtime stabilitas server, kecepatan penanganan insiden bottleneck trafik, atau keamanan isolasi user."
+      ]
+    }
+  ],
+  "Cybersecurity Analyst": [
+    {
+      "competency_id": "cybersecurity_analyst_1",
+      "competency": "Security Operations & Alert Analysis",
+      "questions": [
+        "Ceritakan prosesmu saat memantau lalu lintas data jaringan harian dan mengumpulkan berkas log dari berbagai perangkat korporat di SIEM.",
+        "Bagaimana rutinitasmu dalam menyaring sinyal alarm palsu (false positive) sambil tetap teliti menyusun korelasi antar log insiden sesungguhnya?",
+        "Langkah forensik paket data seperti apa yang menjamin peningkatan visibilitas dan akurasi tinggi dalam deteksi ancaman aktif?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemantauan lalu lintas data jaringan atau pengumpulan berkas log aktivitas dari berbagai perangkat korporat.",
+        "Menyebutkan tindakan menyusun korelasi antar log kejadian, menyaring sinyal alarm palsu (false positive), atau forensik paket data.",
+        "Menjelaskan hasil akhir berupa kecepatan penemuan indikasi serangan siber, akurasi deteksi ancaman aktif, atau visibilitas keamanan."
+      ]
+    },
+    {
+      "competency_id": "cybersecurity_analyst_2",
+      "competency": "Information Security Vulnerability Assessment",
+      "questions": [
+        "Ceritakan proses pengetesan penetrasi (pentest) yang biasa kamu terapkan pada sistem internal korporasi sebelum suatu aplikasi resmi dirilis.",
+        "Dalam simulasi eksploitasi terpandu, apa saja kerangka tes yang kamu gunakan untuk menguji pemindaian port terbuka dan algoritma enkripsinya?",
+        "Apa strategi penyusunan dokumen rekomendasi risikomu agar tim internal langsung memahami bahaya miskonfigurasi server yang harus segera ditutup?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengetesan penetrasi (pentest) atau pemindaian celah keamanan sistem internal korporasi sebelum dirilis.",
+        "Menyebutkan langkah pemindaian port terbuka, pengujian kekuatan algoritma enkripsi token, atau simulasi eksploitasi terpandu.",
+        "Menjelaskan dampak berupa penutupan celah miskonfigurasi fatal, pencegahan kebocoran data sensitif, atau penyusunan dokumen rekomendasi risiko."
+      ]
+    },
+    {
+      "competency_id": "cybersecurity_analyst_3",
+      "competency": "Incident Handling & Legislative Compliance",
+      "questions": [
+        "Ceritakan momen kritis saat kamu menangani insiden pembobolan aktif sambil tetap mempertimbangkan audit pemenuhan privasi data konsumen.",
+        "Bagaimana caramu mengarantina server yang terinfeksi dan membersihkan memori sistem tanpa menyalahi prosedur operasional keamanan korporasi?",
+        "Bagaimana keberhasilanmu menghentikan rantai penyebaran malware berhasil menyelamatkan reputasi perusahaan dan menjamin kelulusan audit kepatuhan hukum?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penanganan insiden pembobolan aktif atau tuntutan pemenuhan standardisasi hukum privasi data konsumen.",
+        "Menyebutkan tindakan mengarantina server terinfeksi malware, pembersihan memori sistem, atau audit prosedur operasional keamanan siber.",
+        "Menjelaskan hasil berupa penghentian penyebaran serangan siber, minimnya kerugian finansial/reputasi, atau kelulusan sertifikasi kepatuhan hukum."
+      ]
+    }
+  ],
+  "Frontend Developer": [
+    {
+      "competency_id": "frontend_developer_1",
+      "competency": "User Interface UI Engineering",
+      "questions": [
+        "Ceritakan alur kerjamu ketika mengonversi aset maket visual desain ke halaman web interaktif lintas dimensi gawai.",
+        "Bagaimana pedoman penulisan utility class layout, pembuatan grid, dan penerapan atribut aksesibilitas pembaca layar (screen reader) versimu?",
+        "Apa parameter penentumu dalam menilai bahwa antarmuka layout berhasil mencapai akurasi adaptasi layar sekaligus kenyamanan pengguna?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks konversi aset gambar desain maket visual menjadi halaman web interaktif yang fleksibel di berbagai gawai.",
+        "Menyebutkan langkah penulisan utility class penataan layout, penyusunan grid kontainer, atau penerapan tag aksesibilitas pembaca layar.",
+        "Menjelaskan dampak berupa kesamaan visual dengan maket asli, kecepatan adaptasi layout layar, atau kenyamanan interaksi pengguna."
+      ]
+    },
+    {
+      "competency_id": "frontend_developer_2",
+      "competency": "Advanced Component Lifecycles & State",
+      "questions": [
+        "Ceritakan kompleksitas arsitektur yang pernah kamu alami terkait pengelolaan aliran data antar komponen agar terhindar dari rendering berulang.",
+        "Bagaimana caramu menerapkan fungsi memoization dan teknik kontrak tipe interface yang ketat (misalnya di TypeScript) guna meredam kebocoran memori?",
+        "Apa strategi state global terbaikmu yang terbukti menjamin kelancaran transisi antar halaman dan menghilangkan cacat logika sintaksis web?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengelolaan aliran data antar komponen web atau pencegahan masalah rendering berulang yang boros performa.",
+        "Menyebutkan tindakan mengonfigurasi arsitektur penyelarasan state global, teknik pengetikan kontrak interface ketat, atau fungsi memoization.",
+        "Menjelaskan hasil akhir berupa hilangnya galat logika sintaksis, kelancaran transisi perpindahan halaman, atau penghematan memori web."
+      ]
+    },
+    {
+      "competency_id": "frontend_developer_3",
+      "competency": "Web Performance Optimization",
+      "questions": [
+        "Ceritakan proyek spesifikmu yang menuntut pemangkasan drastis ukuran berkas bundel dan optimasi load-time awal indeks SEO halaman situs.",
+        "Bisa detailkan teknis kerjamu ketika menerapkan rendering sisi server (SSR) berpadu konfigurasi optimalisasi penyimpanan lokal browser?",
+        "Bagaimana indikator metrik Web Vitals berhasil membuktikan taktik pemisahan bundelmu mendongkrak retensi pengunjung secara nyata?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perbaikan load-time awal halaman web, optimasi indeks mesin pencari (SEO), atau pemangkasan ukuran berkas skrip.",
+        "Menyebutkan tindakan menerapkan teknik rendering sisi server (SSR), konfigurasi penyimpanan lokal browser, atau pemisahan berkas bundel.",
+        "Menjelaskan dampak berupa peningkatan retensi kunjungan user, skor performa web yang tinggi, atau kecepatan muat aset statis."
+      ]
+    }
+  ],
+  "Backend Developer": [
+    {
+      "competency_id": "backend_developer_1",
+      "competency": "Microservices Architecture & API Design",
+      "questions": [
+        "Ceritakan pertimbangan sistem level desain yang membawamu memutuskan pembongkaran server monolitik menjadi layanan distribusi mikro (microservices).",
+        "Bagaimana caramu merancang kontrak rute API gateway dengan pedoman skema pemisahan isolasi kegagalan layanan yang tangguh?",
+        "Dalam metrik kinerjamu, tunjukkan bagaimana mekanisme yang kamu bangun berhasil memastikan kestabilan aplikasi keseluruhan walau satu layanan backend mati mendadak."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemisahan fungsi server monolitik menjadi layanan terdistribusi (microservices) untuk skalabilitas sistem bisnis.",
+        "Menyebutkan tindakan merancang spesifikasi kontrak data API gateway, skema isolasi kegagalan antar layanan server, atau routing endpoint.",
+        "Menjelaskan hasil berupa kemudahan perluasan fitur secara independen, ketahanan server jika salah satu service mati, atau kecepatan komunikasi data."
+      ]
+    },
+    {
+      "competency_id": "backend_developer_2",
+      "competency": "Database Tuning & Transaction Control",
+      "questions": [
+        "Ceritakan penugasanmu saat dituntut memastikan kestabilan masif pelindungan transaksi finansial (atau stok) dengan meredam ancaman insiden kondisi balapan data (race condition).",
+        "Langkah tuning isolasi transaksi dan penyusunan kueri tabel relasional seperti apa yang menjadi solusi andalanmu dalam mempercepat pencarian (indexing) data base?",
+        "Pernahkah desain tuning relasionalmu ini secara absolut menghapuskan galat anomali salah hitung stok? Bagaimana proses perhitungannya?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perlindungan integritas transaksi data simultan berskala masif atau penyusunan indeks tabel pencarian data.",
+        "Menyebutkan tindakan penulisan kueri relasional kompleks, penanganan kondisi balapan data (race condition), atau tuning isolasi transaksi.",
+        "Menjelaskan dampak berupa hilangnya risiko salah hitung data saldo/stok, pemangkasan durasi tunggu kueri database, atau kestabilan penyimpanan."
+      ]
+    },
+    {
+      "competency_id": "backend_developer_3",
+      "competency": "Asynchronous Processing & Type Safety",
+      "questions": [
+        "Ceritakan momen ketika kamu membangun arsitektur kompilasi server yang sangat kencang dan mendelegasikan serangkaian log asinkron latar belakang secara non-blocking.",
+        "Bagaimana caramu memproteksi antrean fungsi asinkronus ke struktur berlapis dalam lapisan cache dengan pengaturan penanganan tipe data yang super ketat?",
+        "Bagaimana caramu mengonfirmasi efisiensi kompilasi server tahan crash walau sedang dijejali gempuran lonjakan request hit trafic ekstrem?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan server berkecepatan kompilasi tinggi atau penanganan fungsi latar belakang non-blocking.",
+        "Menyebutkan langkah proteksi penanganan error asinkronus terstruktur, delegasi tugas ke antrean memori, atau setelan layered caching.",
+        "Menjelaskan hasil berupa server yang tangguh tidak rentan crash saat kebanjiran hit trafik, efisiensi ram kompilasi, atau minimnya beban database."
+      ]
+    }
+  ],
+  "Full Stack Developer": [
+    {
+      "competency_id": "full_stack_developer_1",
+      "competency": "End-to-End System Architecture",
+      "questions": [
+        "Ceritakan kerangka besar desainmu untuk mensinkronisasi arsitektur web utuh ujung-ke-ujung (dari basis data model server hingga logika visual UI client).",
+        "Menurut logikamu, indikator teknis seperti apa yang memisahkan antara porsi perhitungan berat pada skrip klien versus pemrosesan internal API sisi server?",
+        "Jelaskan satu kendala nyata (bug logic) di mana sinkronisasimu gagal, dan bagaimana arsitektur komunikasimu mengatasinya agar fungsionalitas fitur terselamatkan."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks merancang aplikasi web utuh dari sisi tampilan interaktif hingga struktur penyimpanan basis data server.",
+        "Menyebutkan langkah sinkronisasi model skema ujung-ke-ujung, pembagian porsi titik pemrosesan logika data, atau integrasi API internal.",
+        "Menjelaskan dampak hasil berupa keselarasan fungsionalitas fitur, efisiensi alur komunikasi client-server, atau kemudahan pelacakan bug."
+      ]
+    },
+    {
+      "competency_id": "full_stack_developer_2",
+      "competency": "Secure Authentication & State Coordination",
+      "questions": [
+        "Ceritakan implementasimu memproteksi pertukaran token enkripsi aman sisi login dan menangkal miskomunikasi ketidakcocokan state data antar halaman web.",
+        "Bagaimana caramu mengikat ketat lapisan autentikasi dengan persistensi pembaruan sisi koneksi klien server serta penguncian proteksi celah kueri database (injeksi)?",
+        "Seberapa tinggi rasio efisiensi token sekuritas rancanganmu mampu mengamankan privasi akun pelanggan bebas cacat manipulasi pihak luar?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perlindungan data sesi masuk pengguna (login) lintas halaman atau pencegahan ketidakcocokan data (mismatch).",
+        "Menyebutkan tindakan mengonfigurasi token enkripsi aman, pencegahan celah injeksi kueri database, atau setelan koneksi persisten.",
+        "Menjelaskan hasil berupa jaminan privasi data akun user, hilangnya celah manipulasi otentikasi, atau konsistensi pembaruan status data."
+      ]
+    },
+    {
+      "competency_id": "full_stack_developer_3",
+      "competency": "Collaborative Version Control & Testing",
+      "questions": [
+        "Ceritakan masa kritikal pengujian integrasi gabungan saat pengerjaan kode fungsional lintas regu divisi memicu banyak konflik percabangan (merge-conflict).",
+        "Bagaimana metode urutan skenariomu menyekat (mengisolasi) pangkalan data unit simulasi testing agar selaras dan menuntaskan anomali git codebase bersama?",
+        "Indikator kesuksesan seperti apa yang kamu gunakan untuk mengukur bahwa kode hasil penggabungan bersih, teruji baik, dan siap naik deployment utama?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengerjaan fitur massal dalam tim engineer lintas divisi atau validasi fungsional sistem sebelum naik tayang.",
+        "Menyebutkan tindakan resolusi konflik penggabungan cabang kode (git merge conflict), penyusunan skenario simulasi uji integrasi, atau isolasi data uji.",
+        "Menjelaskan dampak berupa kerapian repositori kode bersama, kepastian tidak adanya fitur lama yang rusak, atau kelancaran deployment."
+      ]
+    }
+  ],
+  "Android Developer": [
+    {
+      "competency_id": "android_developer_1",
+      "competency": "Native Android SDK Engineering",
+      "questions": [
+        "Ceritakan kerumitan saat kamu mengatur pembagian komputasi jaringan yang sangat berat demi mempertahankan tampilan gawai tanpa kendala freeze error (ANR).",
+        "Gambarkan teknis siklus pengelolaan hidup UI Activity bersinergi pengamanan utas data (coroutines/rxJava) penyedot data internet di latar belakang gawai.",
+        "Pernahkah algoritma efisiensimu menurunkan tajam keluhan crash pengguna sekaligus menghemat masif pemakaian sel baterai? Bagaimana ukurannya?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengelolaan tugas komputasi berat (seperti penarikan internet atau unduhan) agar layar gawai tidak membeku (freeze).",
+        "Menyebutkan langkah mendelegasikan tugas ke utas latar belakang menggunakan coroutines, atau pengelolaan siklus hidup aktivitas mobile.",
+        "Menjelaskan dampak hasil berupa kelancaran respons navigasi aplikasi, terhindarnya sistem dari galat paksa berhenti (ANR), atau penghematan baterai."
+      ]
+    },
+    {
+      "competency_id": "android_developer_2",
+      "competency": "Declarative UI Component Architecture",
+      "questions": [
+        "Ceritakan arsitektural adaptasi kode basis ketika kamu beralih menggunakan pola desain modern komponen deklaratif Jetpack Compose vs tradisi hierarki XML.",
+        "Langkah tata aturan penulisan status hierarki view seperti apa yang berhasil merangkul gaya UI fleksibel reaktif dalam custom visual theme yang homogen?",
+        "Berapa presentase efisiensi kehalusan animasi transisional pembaruan per komponen visual yang sukses ditelurkan dari pemangkasan kompleksitas tata kode tersebut?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks transisi penulisan arsitektur tampilan gawai dari pola tata letak XML tradisional menuju komponen reaktif.",
+        "Menyebutkan tindakan menulis fungsi deklaratif antarmuka UI, mengelola status pembaruan rendering komponen lokal, atau kustomisasi tema visual.",
+        "Menjelaskan hasil berupa pemangkasan ukuran berkas layout, kemudahan modifikasi tampilan berkala, atau kehalusan animasi transisi komponen."
+      ]
+    },
+    {
+      "competency_id": "android_developer_3",
+      "competency": "Mobile Clean Architecture Patterns",
+      "questions": [
+        "Ceritakan arsitektur landasan MVVM dalam manajemen persilangan kerangka parsing konversi data server API menuju logika repositori penyimpanan lapisan UI.",
+        "Bagaimana sistem modul layer repositorimu menyeleksi konfigurasi pustaka dependensi terisolasi yang mengeliminasi masalah rilis basis data JSON bertingkat?",
+        "Menurut pengalaman teknikalmu, bagaimana perancangan struktur clean pattern memperkuat keabsahan isolasi bug ketika pengujian unit bersama kode kolega?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan basis kode berskala besar yang rapi, mudah diuji unitnya, atau pemisahan urusan antara UI dan data server.",
+        "Menyebutkan tindakan menulis pemisahan modul layer repositori data, konfigurasi manajer dependensi otomatis, atau penanganan aman konversi berkas JSON.",
+        "Menjelaskan dampak berupa kemudahan pengerjaan kode paruh waktu secara tim, keabsahan isolasi bug teknis, atau kecepatan integrasi endpoint baru."
+      ]
+    }
+  ],
+  "iOS Developer": [
+    {
+      "competency_id": "ios_developer_1",
+      "competency": "Native Apple Interface Optimization",
+      "questions": [
+        "Ceritakan kalkulasi batasan AutoLayout perprioritas constraint matriks tampilan visual yang paling presisi di keragaman dinamika ukuran layar produk gawai Apple.",
+        "Bagaimana penyusunan hierarki SwiftUI-mu mengatasi pergeseran prioritas tata komputasi berat yang sering membebani kecepatan refresh body visual layer?",
+        "Berapa besar signifikansi teknis pemangkasan beban stuttering dari skrip tampilanmu agar transisi antar pandangan gawai sanggup stabil berselancar di angka 60 FPS?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penyusunan tata letak visual dinamis untuk berbagai variasi resolusi gawai Apple atau pelacakan beban render visual.",
+        "Menyebutkan tindakan meminimalkan komputasi berat di dalam struktur bodi view, atau penentuan matriks prioritas batasan tata letak objek.",
+        "Menjelaskan dampak berupa hilangnya tersendatnya transisi layar (stuttering), kehalusan gerakan UI di angka 60 FPS, atau kerapian visual lintas gawai."
+      ]
+    },
+    {
+      "competency_id": "ios_developer_2",
+      "competency": "Reactive Streams & Memory Management",
+      "questions": [
+        "Ceritakan konfigurasi operator rangkaian asinkronus ekosistem aliran data status menggunakan struktur Combine Framework di iOS architecture skala makro.",
+        "Jelaskan taktik spesifik penerapan rujukan referensi closure penutupan variabel memory lemah (weak) untuk menghindari isu penimbunan siklus tahan memori gawai.",
+        "Pernahkah arsitektur pola pencegahan retain cycle asinkronusmu mengunci tuntas keluhan crash memory gawai pelanggan? Bagaiman analisa audit sistemnya?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penanganan aliran pertukaran data asinkronus atau pencegahan isu kebocoran alokasi memori sistem (memory leak).",
+        "Menyebutkan tindakan mengonfigurasi kata kunci referensi lemah (weak reference) pada fungsi penutupan, atau merantai operator aliran combine.",
+        "Menjelaskan hasil berupa stabilitas ram gawai dari ancaman crash penumpukan data, kebersihan siklus hidup objek, atau ketepatan aliran status data."
+      ]
+    },
+    {
+      "competency_id": "ios_developer_3",
+      "competency": "Offline First Core Data Architecture",
+      "questions": [
+        "Ceritakan rancang bangun diagram pemetaan relasional entitas lokal sinkronisasi basis data di gawai yang mampu menjebatani utilitas pencarian konten tanpa sinyal internet.",
+        "Tindakan sinkronisasi rute kode seperti apa yang menangani amanah rekursif muatan migrasi skema database lokal seiring pergantian versi terbaru aplikasi ke cloud server?",
+        "Adakah penjelajahan luring kueri lokal milikmu berdampak masif mengefisiensikan kuota trafik API pengguna? Paparkan ukuran keandalannya."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan aplikasi yang tetap berfungsi menampilkan informasi utama saat gawai kehilangan sinyal internet.",
+        "Menyebutkan tindakan menyusun skema relasi entitas penyimpanan lokal gawai, eksekusi kueri lokal, atau penanganan migrasi skema database.",
+        "Menjelaskan dampak berupa kelancaran penjelajahan luring bagi pengguna, efisiensi konsumsi kuota data internet, atau sinkronisasi data otomatis."
+      ]
+    }
+  ],
+  "Mobile Developer": [
+    {
+      "competency_id": "mobile_developer_1",
+      "competency": "Cross Platform Core Framework Deployment",
+      "questions": [
+        "Ceritakan desain struktur kerangka folder utama dan injeksi mesin render visual yang sanggup memenuhi kesetaraan visual native mutlak di kedua rilis beda sistem operasi gawai.",
+        "Tantangan kompromi apa yang kamu pecahkan demi mengejar pemangkasan jadwal rilis kode tunggal yang melesat aman tanpa ketimpangan efisiensi performa?",
+        "Apa strategi dependensi arsitektural yang kamu tentukan agar tim perancangan kolaboratif mampu selaras menangani sistem beda landasan platform (Android/iOS) dengan mulus?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks perancangan aplikasi multi-platform tunggal guna mengejar efisiensi waktu rilis produk di sistem Android dan iOS sekaligus.",
+        "Menyebutkan tindakan mengonfigurasi mesin render framework lintas platform, penyusunan arsitektur folder modular, atau setelan dependensi dasar.",
+        "Menjelaskan hasil berupa pemangkasan porsi durasi pengerjaan kode tim, kesetaraan kecepatan transisi visual dibanding aplikasi native, atau kerapian kode."
+      ]
+    },
+    {
+      "competency_id": "mobile_developer_2",
+      "competency": "Global Component State Management",
+      "questions": [
+        "Ceritakan pengelolaan hierarki fungsi mutasi data lintas page untuk menghalau bentrok penunjuk siklus data usang (state bug logic) berdesain ekosistem raksasa.",
+        "Bagaimana pengawasan riwayat fungsi obyek yang menyekat antara interaksi isian logika antarmuka visual tampilan dari transaksi basis koneksi model status utama?",
+        "Dalam kendali penuh manajemen konsistensi lintas halaman, bagaimana taktik pembersihan isolasimu mampu secara signifikan mengamankan RAM memory status terdistribusi?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemisahan total antara data transaksi bisnis pusat dan komponen tampilan visual gawai agar tidak terjadi bentrok status data.",
+        "Menyebutkan langkah penulisan fungsi mutasi data terisolasi, pelacakan riwayat perubahan status objek global, atau pembersihan data usang.",
+        "Menjelaskan dampak hasil berupa konsistensi isian komponen lintas halaman gawai, hilangnya bug salah tunjuk data, atau efisiensi pemakaian memori."
+      ]
+    },
+    {
+      "competency_id": "mobile_developer_3",
+      "competency": "Native Bridge Driver & Cache Security",
+      "questions": [
+        "Ceritakan kompleksitas rilis biner pemrograman kustom terisolasi pemanggilan koneksi ke native module (misal biometrik) yang kala itu tidak ter-support mesin framework dasar.",
+        "Bagaimana penyusunan asuransi proteksi sinkronisasi perpindahan konversi muatan paket string di sisi lintas bahasa (Native ke Cross bridge platform) agar tak rentan dijebol?",
+        "Tindakan algoritma teknis berlapis model keamanan penyimpanan data token cache seperti apa yang menyelamatkan kredibilitas informasi rahasia gawai pelangganmu?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pemanggilan sensor hardware internal gawai yang belum didukung pustaka dasar atau pengamanan token rahasia pengguna.",
+        "Menyebutkan langkah menulis modul spesifik sisi platform native (Java/Swift), konversi tipe data antar jembatan kode, atau enkripsi penyimpanan lokal.",
+        "Menjelaskan hasil berupa kelancaran akses fitur kamera/biometrik kustom, proteksi data rahasia dari ancaman pembongkaran biner, atau keandalan cache."
+      ]
+    }
+  ],
+  "Manual QA Tester": [
+    {
+      "competency_id": "manual_qa_tester_1",
+      "competency": "Functional Edge Case Test Design",
+      "questions": [
+        "Ceritakan ketajaman analitik pembedahan naskah kompleks PRD dalam merumuskan pemetaan jaring lembar pelacakan batasan ekstrem nilai matriks skenario pengujian unit dasar.",
+        "Langkah pemetaan skenario logika pergeseran input anomali dan keanehan rute batasan seperti apa yang sering luput pada fokus pandang fungsionalitas tim rekayasa koding utama?",
+        "Dalam temuan hasil lembar rekam jejak panduan strategimu, sebutkan celah galat fungsi aplikasi fatal yang berhasil ditangkap murni berkat kesempurnaan susunan tes skenariomu."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pembacaan dokumen kebutuhan produk (PRD) untuk memetakan jalur skenario pengetesan fungsional aplikasi secara manual.",
+        "Menyebutkan tindakan teknis menentukan batasan nilai input ekstrem, penyusunan lembar langkah uji (test case), atau pemetaan matriks ketertelusuran.",
+        "Menjelaskan dampak berupa kesiapan panduan pengetesan yang kredibel, penemuan celah galat bisnis tersembunyi, atau kejelasan skenario uji."
+      ]
+    },
+    {
+      "competency_id": "manual_qa_tester_2",
+      "competency": "Defect Reporting Lifecycle Management",
+      "questions": [
+        "Ceritakan kecakapan negosiasi pembuktian kejanggalan anomali cacat perilaku kode aplikasi dengan runutan pelaporan sistem log detail via Jira yang sangat teliti dan faktual.",
+        "Dalam standar skoring manajemen isu severity penanganan kerusakan, prosedur pembuktian reproduksi error manual model seperti apa yang meyakinkan prioritas pengerjaan rekayasa tim developer?",
+        "Sejauh mana penyusunan laporan cacat teknikalmu sanggup memotong tajam pembuangan waktu debat alibi argumen developer dan membereskan pelacakan tiket perbaikan fungsional?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penemuan penyimpangan perilaku sistem (defect) saat pengujian manual serta kebutuhan koordinasi dengan tim engineer.",
+        "Menyebutkan langkah penulisan langkah-langkah reproduksi bug secara kronologis, penentuan skor tingkat keparahan (severity), atau pencatatan log error.",
+        "Menjelaskan hasil akhir berupa percepatan durasi perbaikan bug oleh developer, minimalisasi perdebatan validitas kesalahan, atau kerapian pelacakan tiket."
+      ]
+    },
+    {
+      "competency_id": "manual_qa_tester_3",
+      "competency": "Exploratory Verification & API Testing",
+      "questions": [
+        "Ceritakan taktik pengujian tanpa naskah rambu batas (exploratory) manuver verifikasi respons logika keamanan transmisi jaringan API query param HTTP postman secara simultan.",
+        "Bagaimana penyergapan anomali uji pengamanan regresi darurat pasca pengerjaan integrasi ulang aplikasi server menuntut improvisasimu yang berada diluar jangkauan naskah awal PRD?",
+        "Tindakan eksplorasi payload respons akurat berbasis naluriah macam apa yang sukses meredam kerusakan parah dari tambalan fungsi perbaikan terbaru versi aplikasi ke kustomer?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengetesan tanpa panduan PRD kaku untuk melacak keanehan sistem atau validasi keandalan pengiriman data server.",
+        "Menyebutkan tindakan memeriksa kesesuaian kode status respons HTTP, pengujian manipulasi query URL, atau eksekusi regresi kilat pasca perbaikan darurat.",
+        "Menjelaskan dampak berupa penemuan bug di luar skenario tertulis, kepastian keakuratan tipe data muatan data server, atau keamanan rilis tambalan kode."
+      ]
+    }
+  ],
+  "QA Automation Engineer": [
+    {
+      "competency_id": "qa_automation_engineer_1",
+      "competency": "Automation Architecture Framework Design",
+      "questions": [
+        "Ceritakan pola pondasi susunan arsitektural basis otomatisasi UI web lintas antarmuka mengacu standardisasi lapisan struktur Page Object Model modular.",
+        "Bagaimana teknikal ketahanan skrip skenario interaktif elemen pemisahan pemanggilan struktur kontrol logika fungsional utama dari fragmen penyusunan kueri data selector visual web?",
+        "Tunjukkan tolok ukur kesolidan kemudahan pemeliharaan framework buatanmu dari sisi anti perpecahan kode walau terdapat serangkaian intervensi bongkar pasang versi desain halaman depan aplikasi web."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks otomatisasi pengujian antarmuka aplikasi web untuk menggantikan proses manual yang repetitif dan memakan waktu lama.",
+        "Menyebutkan langkah memisahkan berkas selector elemen UI dari skrip logika aksi menggunakan pola Page Object Model, atau penulisan kelas basis.",
+        "Menjelaskan hasil berupa skrip otomatisasi yang tangguh tidak mudah rusak saat tampilan UI berubah sedikit, atau kemudahan perawatan skrip tim."
+      ]
+    },
+    {
+      "competency_id": "qa_automation_engineer_2",
+      "competency": "Flaky Script Mitigation & Pipeline",
+      "questions": [
+        "Ceritakan teknik manuver komputasi penyesuaian fungsi pemanggilan kelambanan rendering dinamis (smart wait) dalam memitigasi eksekusi sinyal rapor palsu lintas uji otomatis asinkron container di sistem CI/CD.",
+        "Kendali peredam pengondisian skrip pemrosesan parallel test case container macam apa yang secara teknis berhasil mempertahankan efisiensi kestabilan rekam jejak laporan hasil otomatisasi regresi mingguan dari hambatan antrean memori rendering?",
+        "Apakah rasio tingkat ketahanan pipeline otomasi rilis skrip yang dikelola sistem penunggu dinamis milikmu memangkas waktu pemrosesan beban pengetesan ganda?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks mengatasi masalah skrip uji otomatis yang sering berubah hasil kelulusannya akibat jeda tunggu internet browser.",
+        "Menyebutkan tindakan menulis fungsi penungguan elemen secara dinamis (smart wait), atau pengaturan eksekusi paralel di runner kontainer.",
+        "Menjelaskan dampak berupa hilangnya sinyal kelulusan palsu (flaky test), akurasi laporan pengujian otomatis, atau efisiensi durasi waktu tunggu pipeline."
+      ]
+    },
+    {
+      "competency_id": "qa_automation_engineer_3",
+      "competency": "Programmatic Integration Validation",
+      "questions": [
+        "Ceritakan pengerjaan integrasi pengaitan pemulihan otomatis basis data serta penangkapan muatan skema laporan asersi verifikasi muatan tanggapan server integrasi API server lokal via rute kode eksternal perutean notifikasi pemicu darurat.",
+        "Bagaimana skrip otomasi pelacakan titik tumpu akhir basis end-point asersi mu mengendalikan siklus uji coba integritas bersih kembali normal sehingga data uji terdahulu nihil mencederai verifikasi skrip pengujian baru aplikasi selanjutnya?",
+        "Akurasi penyertaan otomasi pemicu penyusunan log notifikasi gagal laporan uji instan chatbot regumu secepat kilat mampu diolah perbaikan oleh tim integrasi peluncur sistem operasi pusat basis data."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks otomatisasi pengujian validasi skema database server atau kebutuhan laporan instan jika terjadi kegagalan sistem.",
+        "Menyebutkan tindakan menulis asersi otomatis muatan skema data server, otomatisasi pembersihan database pasca uji, atau skrip pemicu chatbot.",
+        "Menjelaskan hasil berupa kepastian integritas relasi data di server, kecepatan tim merespon kegagalan kode baru, atau kebersihan log asersi."
+      ]
+    }
+  ],
+  "Software Tester": [
+    {
+      "competency_id": "software_tester_1",
+      "competency": "Test Strategy Formulation & Validation",
+      "questions": [
+        "Ceritakan pembagian manajemen analitik pelacakan jejak akar dampak resiko kode internal korporat per basis porsi eksekusi spesifikasi tes uji rilis serah terima fungsional integrasi manual di tengah kendala tekanan limit batas deadline produk gawai yang memuncak.",
+        "Bagaimana penyekatan verifikasi penyelesaian skenario penelusuran asuransi laporan jaminan kelayakan kredibilitas rekayasa bukti pengesahan akhir laporan pergerakan log pelacakan duplikasi rekayasa manual pengujian dan skrip automatis rekayasa fungsi antarmuka aplikasi regu pengembang dev internal server pangkalan?",
+        "Taktik rumusan eksekusi validasi kredibilitas kualitas apa yang mematikan jalur duplikasi rekayasa galat dari penyerahan bukti rilis dan mendongkrak ketepatan target perbaikan alokasi efisiensi teknikal tim."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks penentuan porsi taktis pengujian di bawah tekanan tenggat waktu rilis aplikasi yang sangat ketat atau verifikasi laporan.",
+        "Menyebutkan tindakan melakukan analisis risiko dampak fitur korporat, membagi kasus uji otomatis versus manual, atau melacak log server internal.",
+        "Menjelaskan dampak berupa efisiensi pembagian beban kerja tim penguji, keabsahan pembuktian akar masalah bug, atau hilangnya tiket duplikat."
+      ]
+    },
+    {
+      "competency_id": "software_tester_2",
+      "competency": "Non-Functional Workload Modeling",
+      "questions": [
+        "Ceritakan pengukuran model uji arsitektur beban limit puncak komputasi sistem respons stres tanggapan basis skenario batas titik sumbatan asinkron infrastruktur (lonjakan hit massal non-fungsional).",
+        "Formulasi rincian manipulasi pengerahan konfigurasi jmeter mu menyusup mencari limit rekam penentuan keandalan sumbatan sistem (bottleneck) antrean basis infrastruktur rilis aplikasi puncak korporat.",
+        "Sajikan kestabilan angka validasi pembuktian data infrastruktur kesiapan mu muat melesat membekali jaminan tim perihal daya penampungan tanggapan trafik terberat operasional basis pengguna tiruan puncak infrastruktur server platform ganda."
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengujian aspek non-fungsional seperti kecepatan tanggapan server, atau batas kemampuan tampung beban trafik server.",
+        "Menyebutkan langkah memformulasi skrip skenario lonjakan trafik pengguna tiruan berskala besar, atau penentuan titik jenuh ambruknya infrastruktur.",
+        "Menjelaskan hasil akhir berupa penemuan titik sumbatan performa (bottleneck), kepastian kesiapan server menyambut trafik massal, atau kestabilan."
+      ]
+    },
+    {
+      "competency_id": "software_tester_3",
+      "competency": "Security Auditing & Regression Matrix",
+      "questions": [
+        "Ceritakan pelacakan pengamatan proteksi penunjang gerbang enkripsi autentikasi penyekatan ancaman resiko manipulasi nilai paket informasi transmisi akses perbatasan lintas modul layanan server penguncian proteksi dari penyelesaian tambalan rilis perbaikan aplikasi produk kustomasi.",
+        "Langkah rumusan rute susunan jejak matrik pengamanan relasi fungsional menyeluruh keutuhan regresi ketergantungan lintas fitur modul yang mendeteksi ancaman hilangnya kompatibilitas fitur lama setelah rilis kode baru disatukan.",
+        "Apa penyekatan cakupan keandalan konsistensi verifikasi pencegahan penguncian proteksi data dari eksploitasi parameter otorisasi akun pengguna rahasia kustomer di tengah masifnya dorongan verifikasi pelacakan fungsional lintas uji matriks perbaikan?"
+      ],
+      "guardrail_signals": [
+        "Menjelaskan konteks pengujian gerbang token otentikasi akun atau jaminan tidak adanya fitur lama yang rusak akibat masuknya perbaikan kode.",
+        "Menyebutkan tindakan memanipulasi parameter nilai token akses server, atau melacak ketergantungan relasi antar modul fitur aplikasi.",
+        "Menjelaskan dampak hasil berupa proteksi kebocoran info sensitif pada muatan data, konsistensi kestabilan aplikasi, atau cakupan uji regresi."
+      ]
+    }
+  ]
+}
