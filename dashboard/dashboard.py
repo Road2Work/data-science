@@ -11,7 +11,7 @@ import os
 # =====================================================================
 st.set_page_config(
     page_title="Road2Work Analytics",
-    page_icon="🎯",
+    page_icon="icon.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
