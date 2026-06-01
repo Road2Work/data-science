@@ -11,7 +11,7 @@ import os
 # =====================================================================
 st.set_page_config(
     page_title="Road2Work Analytics",
-    page_icon="icon.png",
+    page_icon="dashboard/icon.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -155,7 +155,7 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 logo_html_element = '<span class="r2w-logo-brand">road2work</span>'
-if os.path.exists("logo.png"):
+if os.path.exists("dashboard/logo.png"):
     try:
         base64_str = get_base64_of_bin_file("logo.png")
         logo_html_element = f'<img src="data:image/png;base64,{base64_str}" style="height: 32px; object-fit: contain;">'
