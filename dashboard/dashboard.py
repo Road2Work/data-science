@@ -155,12 +155,14 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 logo_html_element = '<span class="r2w-logo-brand">road2work</span>'
-if os.path.exists("dashboard/logo.png"):
+logo_path = "dashboard/logo.png"
+
+if os.path.exists(logo_path):
     try:
-        base64_str = get_base64_of_bin_file("logo.png")
+        base64_str = get_base64_of_bin_file(logo_path)
         logo_html_element = f'<img src="data:image/png;base64,{base64_str}" style="height: 32px; object-fit: contain;">'
-    except Exception:
-        pass
+    except Exception as e:
+        st.error(f"Error loading logo: {e}")
 
 # =====================================================================
 # 4. FUNGSI BUAT INSIGHT
@@ -195,10 +197,9 @@ st.markdown(f"""
     <div class="r2w-navbar">
         <div style="display: flex; align-items: center;">
             {logo_html_element}
-            <span class="r2w-logo-sub">Interview Analytics</span>
         </div>
-        <div class="status-badge">
-            <span class="status-dot"></span> Live Dashboard
+        <div style="text-align: right;">
+            <span class="r2w-logo-sub">Candidate Performance Dashboard</span>
         </div>
     </div>
 """, unsafe_allow_html=True)
