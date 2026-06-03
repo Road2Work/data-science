@@ -1,2 +1,6 @@
 # Environments
 .env
+
+# Ignore archive folders
+data/99_archive/
+notebooks/99_archive/
