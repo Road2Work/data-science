@@ -210,7 +210,12 @@ Tabel ini berisi hasil penilaian (skor) yang dihasilkan oleh sistem terhadap jaw
 | Column | Description |
 | :--- | :--- |
 | `sample_id` | *Foreign key* yang menghubungkan hasil penilaian dengan jawaban kandidat. |
-| `role_relevance` ... `self_awareness` | Skor (0-100) per komponen berdasarkan `scoring_rubric`. |
+| `role_relevance` | Skor (0-100) relevansi pengalaman dengan *role*. |
+| `star_structure` | Skor (0-100) kelengkapan alur STAR (*Situation, Task, Action, Result*). |
+| `evidence_specificity` | Skor (0-100) kedalaman bukti, *tools*, dan detail kontribusi. |
+| `technical_accuracy` | Skor (0-100) ketepatan konsep teknis dan *best practice*. |
+| `communication_clarity` | Skor (0-100) kejelasan, keruntutan, dan artikulasi kandidat. |
+| `self_awareness` | Skor (0-100) kemampuan refleksi dan *growth mindset*. |
 | `evidence_level` | Level kedalaman bukti jawaban kandidat (skala 1-5). |
 | `weakness_tags` | Daftar tag kelemahan yang ditemukan (dipisahkan titik koma). |
 | `need_clarification` | *Boolean* (`True`/`False`) apakah sistem harus memicu pertanyaan tindak lanjut. |
@@ -227,20 +232,6 @@ Tabel ini berisi hasil penilaian (skor) yang dihasilkan oleh sistem terhadap jaw
 ### Kategori 2: Data Pengayaan (Interim)
 #### `A. cleaned_answers_evaluation.csv`
 Dataset ini merupakan hasil penggabungan (*merge*) antara `answer_dataset.csv` dan `evaluations_dataset.csv` yang telah melalui proses pembersihan dan pengayaan fitur (*feature engineering*) di dalam *notebook* pengolahan data. Dataset ini dirancang untuk mempermudah analisis korelasi antara konten jawaban kandidat dengan metrik performa mereka.
-
-| Column | Description |
-| :--- | :--- |
-| `sample_id` | *Primary key* dari data transaksional. |
-| `role_family` ... `answer` | Data dasar hasil input kandidat. |
-| `role_relevance` ... `quality_label` | Hasil penilaian model evaluasi. |
-| `answer_length_words` | Total jumlah kata dalam jawaban. |
-| `has_context` ... `has_data_processing` | **Feature Flags:** *Boolean* (0 atau 1) yang menunjukkan keberadaan elemen spesifik dalam jawaban (misal: `has_tools`, `has_impact`, `has_model_evaluation`). |
-| `filler_word_count` | Jumlah kata pengisi (*filler words*) seperti "em", "eh", "anu", untuk mengukur tingkat kepercayaan diri/kelancaran komunikasi. |
-
-**Catatan Implementasi:**
-- **Feature Engineering:** Penambahan kolom *boolean flag* bertujuan untuk mempermudah model dalam mengidentifikasi pola jawaban kandidat secara kuantitatif (misalnya: apakah kandidat yang menyebutkan `has_tools` memiliki `final_score` yang lebih tinggi?).
-- **Analisis Kualitas:** Kolom `filler_word_count` memberikan dimensi baru bagi sistem untuk mendeteksi tingkat keraguan atau kurangnya persiapan kandidat saat menjawab pertanyaan teknis.
-- **Tujuan:** Data di folder ini merupakan *staging area* sebelum data dipisahkan menjadi *split* pelatihan untuk tim AI.
 
 | Nama Kolom | Deskripsi |
 | :--- | :--- |
@@ -279,6 +270,11 @@ Dataset ini merupakan hasil penggabungan (*merge*) antara `answer_dataset.csv` d
 | `has_backend_architecture`| Flag (0/1): Indikator spesifik kompetensi *Backend Architecture*. |
 | `has_model_evaluation` | Flag (0/1): Indikator spesifik kompetensi *AI/ML Model Evaluation*. |
 | `has_data_processing` | Flag (0/1): Indikator spesifik kompetensi *Data Processing/ETL*. |
+
+**Catatan Implementasi:**
+- **Feature Engineering:** Penambahan kolom *boolean flag* bertujuan untuk mempermudah model dalam mengidentifikasi pola jawaban kandidat secara kuantitatif (misalnya: apakah kandidat yang menyebutkan `has_tools` memiliki `final_score` yang lebih tinggi?).
+- **Analisis Kualitas:** Kolom `filler_word_count` memberikan dimensi baru bagi sistem untuk mendeteksi tingkat keraguan atau kurangnya persiapan kandidat saat menjawab pertanyaan teknis.
+- **Tujuan:** Data di folder ini merupakan *staging area* sebelum data dipisahkan menjadi *split* pelatihan untuk tim AI.
 ---
 ### Kategori 3: Data Pelatihan Model (Processed)
 
