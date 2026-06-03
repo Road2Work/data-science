@@ -7,16 +7,45 @@ Road2Work.id adalah platform kesiapan karir komprehensif yang dirancang untuk me
 * **End-to-End Data Pipeline:** Mengelola siklus data dari *gathering* dan *scraping* dataset relevan, melakukan *data wrangling*, hingga pembersihan dan validasi struktur data untuk memastikan kesiapan model.
 * **Competency & Scoring Engine:** Mengimplementasikan logika evaluasi jawaban pelamar yang mengacu pada taksonomi kompetensi, rubrik penilaian, serta pemetaan *evidence ladder* untuk mendapatkan skor kecocokan yang terukur.
 * **Feature Engineering & Insight Extraction:** Melakukan rekayasa fitur untuk meningkatkan informativitas data bagi model, serta mengekstrak komponen kunci seperti metrik (angka), konteks, dan dampak (*impact*) dari jawaban pelamar.
-* **Interactive Analytics Dashboard:** Mengembangkan dasbor analitik berbasis [Streamlit](https://streamlit.io/) sebagai sarana visualisasi *explanatory analysis* yang menjawab pertanyaan bisnis secara *real-time*.
+* **Interactive Analytics Dashboard:** Mengembangkan dasbor analitik berbasis Streamlit sebagai sarana visualisasi explanatory analysis. Akses dasbor di: [Road2Work.id Dashboard](https://road2work.streamlit.app/).
 * **Model Readiness & Experimentation:** Menyiapkan infrastruktur data yang siap diproses oleh model, termasuk pembuatan *Data Dictionary* dan implementasi eksperimen A/B Testing menggunakan Python.
 * **Technical Reporting:** Menyusun dokumentasi teknis komprehensif yang mencakup seluruh alur proyek, mulai dari *problem discovery* hingga hasil akhir proyek dalam format PDF.
 
 ## 📂 Struktur Folder & Data
 
+```text
+├── dashboard/
+│   ├── dashboard.py                        # Skrip utama Streamlit
+│   ├── icon.png                            # Favicon
+│   └── logo.png                            # Logo navbar
+├── data/
+│   ├── 01_raw/
+│   │   ├── answer_dataset.csv              # Data jawaban kandidat
+│   │   ├── competency_map.json             # Pemetaan kompetensi target
+│   │   ├── evaluations_dataset.csv         # Data penilaian jawaban
+│   │   ├── evidence_ladder_mapping.json    # Definisi level Evidence Ladder
+│   │   ├── question_seed.json              # Bank pertanyaan
+│   │   ├── role_skill_matrix.csv           # Mapping Skill per Role
+│   │   ├── role_skill_matrix.json          # Mapping Skill per Role
+│   │   ├── role_tree_dropdown.csv          # Hierarki Domain → Role
+│   │   ├── role_tree_dropdown.json         # Hierarki Domain → Role
+│   │   ├── scoring_rubric.json             # Aturan bobot penilaian
+│   │   ├── skill_taxonomy.json             # Standarisasi Skill
+│   │   └── weakness_taxonomy.json          # Klasifikasi kelemahan
+│   ├── 02_interim/
+│   │   └── cleaned_answers_evaluation.csv  # Dataset hasil pembersihan pada notebook pengolahan data
+│   └── 03_processed/
+│       ├── test_df.csv                     # Dataset testing hasil olahan siap latih
+│       ├── train_df.csv                    # Dataset pelatihan hasil olahan siap latih
+│       └── val_df.csv                      # Dataset validasi hasil olahan siap latih
+└── notebooks/
+    └── notebook.ipynb                      # Notebook utama riset & EDA
+```
+
 ### Struktur Utama
 * `dashboard/`: Berisi kode sumber untuk *dashboard* analitik (Streamlit).
 * `data/`: Penyimpanan data terstruktur.
-* `notebooks/`: Area eksperimen, analisis eksploratif (EDA), dan pengembangan model.
+* `notebooks/`: Area eksperimen, analisis eksploratif (EDA), dan pengembangan data untuk model.
 
 ### 1️⃣ Struktur Folder data/
 
@@ -42,7 +71,6 @@ Berisi data yang telah melewati proses *wrangling* dan *cleaning* awal.
 | Nama File | Deskripsi |
 | :--- | :--- |
 | `cleaned_answers_evaluation.csv` | Hasil *merge* dari `answer_dataset.csv` dan `evaluations_dataset.csv` yang sudah melalui tahap cleaning data. |
-| `data_dictionary_template.csv` | Template untuk mendokumentasikan metadata kolom dari *dataset* hasil olahan (tahap pengembangan). |
 
 #### 1.3. Isi Folder `data/03_processed/`
 Berisi *split dataset* yang siap digunakan untuk melatih model AI. Data ini telah melalui tahap *feature engineering* dan pembagian porsi data.
@@ -53,9 +81,6 @@ Berisi *split dataset* yang siap digunakan untuk melatih model AI. Data ini tela
 | `val_df.csv` | *Validation set* untuk penyesuaian parameter dan evaluasi selama pelatihan. |
 | `test_df.csv` | *Testing set* untuk pengujian performa akhir model sebelum diimplementasikan. |
 
-#### 1.4. Isi Folder `data/99_archive/`
-Berisi riwayat data yang sudah tidak digunakan. hanya sebagai arsip pada saat proses gathering data
-
 ### 2️⃣ Struktur Folder notebooks/
 Area eksperimen, analisis, dan pengembangan model sebelum diimplementasikan ke dalam *pipeline* produksi.
 * **`notebook.ipynb`**: *Notebook* utama untuk seluruh siklus hidup data:
@@ -65,15 +90,12 @@ Area eksperimen, analisis, dan pengembangan model sebelum diimplementasikan ke d
     * **Visualization:** *Explanatory analysis* untuk menjawab pertanyaan bisnis.
     * **Data Splitting:** Pembagian dataset menjadi *train, val,* dan *test set*.
     * **A/B Testing:** Eksperimen statistik untuk memvalidasi efektivitas perubahan fitur/model.
-* **`99_archive/`**: Direktori penyimpanan riwayat eksperimen atau versi *notebook* lama yang sudah tidak digunakan, berfungsi sebagai arsip dokumentasi proses riset.
 
 ### 3️⃣ Struktur Folder dashboard/
 Berisi komponen utama untuk penyajian visualisasi analitik interaktif.
 * **`dashboard.py`**: Skrip utama berbasis [Streamlit](https://streamlit.io/) yang memproses data hasil olahan menjadi dasbor analitik interaktif.
 * **`icon.png`**: Aset visual yang digunakan sebagai *favicon* (ikon tab) pada *browser*.
 * **`logo.png`**: Aset visual utama yang ditampilkan pada *navbar* dasbor sebagai elemen identitas *brand* Road2Work.
-
-
 
 ## 💻 Panduan Menjalankan Project (Getting Started)
 
@@ -88,7 +110,7 @@ Pastikan Anda telah menginstal aplikasi berikut:
 ### 1. Clone Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Road2Work/data-science.git
 cd data-science
 ```
 
